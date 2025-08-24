@@ -9,6 +9,7 @@ import PricingSection from '@/components/PricingSection';
 import WhyChooseUs from '@/components/WhyChooseUs';
 import CTABanner from '@/components/CTABanner';
 import Footer from '@/components/Footer';
+import AIChat from '@/components/AIChat';
 
 const Index = () => {
   useScrollAnimation();
@@ -62,6 +63,7 @@ const Index = () => {
       </main>
       
       <Footer />
+      <AIChat />
     </div>
   );
 };
